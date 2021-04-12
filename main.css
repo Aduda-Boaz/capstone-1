@@ -1,0 +1,24 @@
+.redbar {
+  background: #d35649;
+}
+
+.icon-group-item {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.logo-link img {
+  width: 100px;
+  height: 30px;
+}
+
+.top-section {
+  background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+  transparent url(./assets/jumbo-img.jpg) center center/cover no-repeat;
+}
+
+@media only screen and (max-width: 768px) {
+  .redbar {
+    flex-direction: column;
+  }
+}
