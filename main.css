@@ -1,5 +1,7 @@
 .redbar {
   background: #d35649;
+  height: 50px;
+  padding: 20x;
 }
 
 .icon-group-item {
@@ -15,6 +17,21 @@
 .top-section {
   background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
   transparent url(./assets/jumbo-img.jpg) center center/cover no-repeat;
+  height: 400px;
+}
+
+.main-search {
+  padding: 50px;
+}
+
+.section-search {
+  width: 75%;
+  border-radius: 2px;
+  background-color: grey;
+}
+
+.font-16 {
+  width: 500px;
 }
 
 @media only screen and (max-width: 768px) {
