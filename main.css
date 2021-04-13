@@ -1,7 +1,20 @@
+::-webkit-scrollbar {
+  display: none;
+}
+
 .redbar {
   background: #d35649;
   height: 50px;
   padding: 20x;
+}
+
+.text-color {
+  color: #d35649;
+}
+
+.icons {
+  text-decoration: none;
+  color: gray;
 }
 
 .icon-group-item {
@@ -20,22 +33,32 @@
   height: 400px;
 }
 
-.main-search {
-  padding: 50px;
+.search-item {
+  margin-top: 20px;
 }
 
-.section-search {
-  width: 75%;
-  border-radius: 2px;
-  background-color: grey;
+.how-items {
+  margin: 20px;
 }
 
 .font-16 {
   width: 500px;
 }
 
+.font-12 {
+  font-size: 18px;
+}
+
+.btn-how {
+  margin-top: 20px;
+}
+
 @media only screen and (max-width: 768px) {
   .redbar {
+    flex-direction: column;
+  }
+
+  .how-items {
     flex-direction: column;
   }
 }
