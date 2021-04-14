@@ -7,117 +7,208 @@
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
   <link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.min.css">
   <link rel="stylesheet" href="main.css">
-  <title>PataShule Directory</title>
+  <title>Service Directory</title>
 </head>
 <body>
   <header>
-    <nav class="container-fluid d-flex justify-content-between align-items-center redbar">
-      <div class="col-lg-2">
-        <a href="#" class="logo-link"><img src="./assets/logo-sample.png" alt="" class="nav-logo"></a>
-      </div>
-      <div class="col-lg-3 d-flex justify-content-between left-nav">
-        <a class="icon-group-item" href="#"><i class="fa fa-search fa-fw" aria-hidden="true"></i>&nbsp; Search</a>
-        <a class="icon-group-item" href="#"><i class="fa fa-user fa-fw" aria-hidden="true"></i>&nbsp; About</a>
-        <a class="icon-group-item" href="#"><i class="fa fa-rss fa-fw" aria-hidden="true"></i>&nbsp; Blog</a>
-        <a class="icon-group-item" href="#"><i class="fa fa-bars fa-fw" aria-hidden="true"></i>&nbsp; More</a>
-      </div>
-    </nav>
-  </header>
-  <section class="row top-section">
-    <!-- g-0 remove the negative margin from row and hoz padding frm all immediate child columns -->
-    <div class="container col-6 main-search">
-      <div class="col-12">
-        <h2 class="font-weight-bold text-white d-inline-block text-uppercase top-heading">
-          pata shule... your gateway to libraries.
-        </h2>
-        <div class="section-search col-12 bg-gray">
-          <span class="search-hint font-12 text-uppercase">
-            search by keyword
-          </span>
-          <div class="search-btn">
-            <input type="search" class="font-16">
-            <a class="btn btn-danger" href="#">SEARCH</a>
+    <div class="container-fluid redbar">
+      <div class="top-nav d-flex">
+        <div class="row">
+          <div class="left-nav">
+            <a href="#" class="nav-logo"><img src="./assets/service-logo.png" alt=""></a>
           </div>
-        </div>
-        <div class="btn-how text-center"> 
-          <a href="#" class="btn-secondary btn-lg d-inline-block hover-black text-decoration-none text-black font-14">
-            How It Works
-          </a>
+          <div class="row nav-links d-flex">
+            <a class="text-white-50 text-decoration-none" href="#"><i class="fa fa-search" aria-hidden="true"></i>
+              <span class="hidden">SEARCH</span>
+            </a>
+            <a class="text-white-50 text-decoration-none" href="#"><i class="fa fa-search" aria-hidden="true"></i>
+              <span class="hidden">SEARCH</span>
+            </a>
+            <a class="text-white-50 text-decoration-none" href="#"><i class="fa fa-search" aria-hidden="true"></i>
+              <span class="hidden">SEARCH</span>
+            </a>
+            <a class="text-white-50 text-decoration-none" href="#"><i class="fa fa-search" aria-hidden="true"></i>
+              <span class="hidden">SEARCH</span>
+            </a>
+          </div>
         </div>
       </div>
     </div>
-  </section>
-  <main class="container col-6">
+  </header>
+  <!-- <section class="showcase-area">
+    <div class="row no-gutters">
+      <div class="col-12 text-center">
+        <h2 class="main-heading font-weight-bold text-white d-inline-block">
+          PATA SHULE... YOUR GATEWAY TO LIBRARIES.</h2>
+          <div class="search-area d-flex bg-gray">
+            <h3>SEARCH BY KEYWORD</h3>
+            <div class="text-btn">
+              <input class="font-18" type="search" />
+              <a href="./result.html" class="btn-search text-decoration-none text-white font-weight-bold font-16 d-inline-block text-center">
+                SEARCH</a>
+            </div>
+          </div>
+          <a class="d-inline-block btn-works hover-black bg-gray font-18 text-black text-decoration-none"
+            href="#">How It Works</a>
+        </div>
+      </div>
+    </section> -->
+  <!-- Main section start -->
+  <main class="container col-8">
     <div class="search-item">
       <h2 class="text-color text-center font-12">Pata shule works in four simple steps</h2>
     </div>
     <div class="row d-flex how-items">
       <div class="col-12 col-lg-6">
         <div class="card text-center border-0">
-          <a href="#" class="icons text-grey fa fa-search-plus fa-2x"></a>
+          <a href="#" class="icons text-gray fa fa-search-plus fa-2x"></a>
           <div class="card-body">
             <h3 class="text-gray text-uppercase">
               1-search:
             </h3>
             <p class="text-lightgray">
-              It is very simple you can search the library by any keywork like name, place, city etc. Alternatively you can click on seach
-              button on top navbar to set the list of all libraries and choose one by clickinng it
+              It is very simple. On the homepage, enter the name of the service you need and click on search, or click on the search link
+              on the top of the menu and view the list.
             </p>
           </div>
         </div>
       </div>
       <div class="col-12 col-lg-6">
         <div class="card text-center border-0">
-          <a href="#" class="icons text-grey fa fa-sitemap fa-2x"></a>
+          <a href="#" class="icons text-gray fa fa-sitemap fa-2x"></a>
           <div class="card-body">
             <h3 class="text-gray text-uppercase">
               2-locate:
             </h3>
             <p class="text-lightgray">
-              Get to see where is library located by clicking on the library profile. It is even more exciting you can get the direction of
-              library from anywhare.
+              Get to see where the service provider is located by clicking on the library profile. It is even more exciting you can get the direction of
+              provider near you.
             </p>
           </div>
         </div>
       </div>
       <div class="col-12 col-lg-6">
         <div class="card text-center border-0">
-          <a href="#" class="icons text-grey fa fa-file-text-o fa-2x"></a>
+          <a href="#" class="icons text-gray fa fa-file-text-o fa-2x"></a>
           <div class="card-body">
             <h3 class="text-gray text-uppercase">
-              3-apply:
+              3-engage:
             </h3>
             <p class="text-lightgray">
-              Apply for the membership of the library of your choice. Click on the apply button to get the application form. We also follow up
-              on the application to make sure you get reply on time.
+              Engage your provider of choice by clicking on the button to go to the detail form. We will help
+              reach your provider to get a quick response.
             </p>
           </div>
         </div>
       </div>
       <div class="col-12 col-lg-6">
         <div class="card text-center border-0">
-          <a href="#" class="icons text-grey fa fa-bed fa-2x"></a>
+          <a href="#" class="icons text-gray fa fa-bed fa-2x"></a>
           <div class="card-body">
             <h3 class="text-gray text-uppercase">
               4-relax:
             </h3>
             <p class="text-lightgray">
-              Once you applied for membership you can now take rest and visit our blog to see the best featured libraries of Schools and
-              their detials.
+              Sit and relax and let your preferred service provider do the work for you. You can go through our blog to see more of our works.
             </p>
           </div>
         </div>
       </div>
     </div>
   </main>
-  <div class="container-fluid">
-    <div class="row redbar">
-      
-    </div>
-  </div>
   <!-- footer -->
-  <footer class="container-fluid">
+  <footer>
+      <div class="footer position-relative">
+        <div class="container-fluid">
+          <div class="footer-links d-flex justify-content-evenly">
+            <div class="left-links d-flex justify-content-between align-items-center">
+             <a class="link text-white d-inline-block text-decoration-none" href="#">Advertise</a>
+              <a class="link text-white d-inline-block text-decoration-none" href="#">Advertise</a>
+              <a class="link text-white d-inline-block text-decoration-none" href="#">Advertise</a>
+              <a class="link text-white d-inline-block text-decoration-none" href="#">Advertise</a>
+            </div>
+            <div class="right-links d-flex justify-content-evenly align-items-center">
+              <a class="link text-white d-inline-block text-decoration-none" href="#">Advertise</a>
+              <a class="link text-white d-inline-block text-decoration-none" href="#">Advertise</a>
+              <a class="link text-white d-inline-block text-decoration-none" href="#">Advertise</a>
+              <a class="link text-white d-inline-block text-decoration-none" href="#">Advertise</a>
+            </div>
+          </div>
+          <div class="center-logo d-none d-lg-inline-block position-absolute rounded-circle">
+            <i class="fa fa-map-marker text-white"></i>
+          </div>
 
-  </footer>
+          <div class="row sub-contact-about">
+            <div class="col-12 col-lg-4">
+              <h2 class="text-center text-white font-18 font-weight-bold">
+                Subscribe
+              </h2>
+              <div class="sub-input-btn d-flex justify-content-center">
+                <input
+                  class="text-white"
+                  type="email"
+                  placeholder="your-email"/>
+                <a class="text-decoration-none btn-footer-sub d-inline-block text-white" href="#">Subscribe</a>
+              </div>
+            </div>
+
+            <div class="col-12 col-lg-4 d-flex flex-column footer-info-block">
+              <h2 class="text-center text-white font-18 font-weight-bold">
+                Contact
+              </h2>
+              <span class="text-gray text-center"></span>For more information write us</span>
+              <span class="text-center text-primary-color">mail-to@gmail.com</span
+              >
+            </div>
+
+            <div class="col-12 col-lg-4 d-flex flex-column footer-info-block">
+              <h2 class="text-center text-white font-18 font-weight-bold">About</h2>
+              <span class="text-white text-center">
+                This is a schools directory website to help ease your search for your favourite school.
+                <a class="text-primary-color learn-more" href="#">Learn More</a></span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="copyright-footer">
+        <div class="container">
+          <div class="row copyright">
+            <div class="copyright-icons col-6">
+              <ul class="m-0 p-0">
+                <li class="d-inline-block p-2">
+                  <a
+                    href="https://www.facebook.com/naitwa.nyaguthie"
+                    class="text-lightgray"
+                  >
+                    <i class="fa fa-facebook-f"></i>
+                  </a>
+                </li>
+                <li class="d-inline-block p-2">
+                  <a
+                    href="https://twitter.com/dmarionyaguthie"
+                    class="text-lightgray"
+                  >
+                    <i class="fa fa-twitter"></i>
+                  </a>
+                </li>
+                <li class="d-inline-block p-2">
+                  <a href="#" class="text-lightgray">
+                    <i class="fab fa-linkedin-in"></i>
+                  </a>
+                </li>
+              </ul>
+            </div>
+            <div
+              class="copyright-text col-6 d-flex align-items-center justify-content-end"
+            >
+              <span class="text-lightgray">
+                © 2020 Designed by PatashuleKE
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
 </body>
 </html>
