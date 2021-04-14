@@ -10,53 +10,50 @@
   <title>Service Directory</title>
 </head>
 <body>
-  <header>
-    <div class="container-fluid redbar">
-      <div class="top-nav d-flex">
-        <div class="row">
+  <header class="container-fluid redbar">
+    <nav class="row col-12">
+        <div class="top-nav">
           <div class="left-nav">
             <a href="#" class="nav-logo"><img src="./assets/service-logo.png" alt=""></a>
           </div>
-          <div class="row nav-links d-flex">
+          <div class="nav-links">
             <a class="text-white-50 text-decoration-none" href="#"><i class="fa fa-search" aria-hidden="true"></i>
               <span class="hidden">SEARCH</span>
             </a>
-            <a class="text-white-50 text-decoration-none" href="#"><i class="fa fa-search" aria-hidden="true"></i>
-              <span class="hidden">SEARCH</span>
+            <a class="text-white-50 text-decoration-none" href="#"><i class="fa fa-user" aria-hidden="true"></i>
+              <span class="hidden">ABOUT</span>
             </a>
-            <a class="text-white-50 text-decoration-none" href="#"><i class="fa fa-search" aria-hidden="true"></i>
-              <span class="hidden">SEARCH</span>
+            <a class="text-white-50 list-items-none text-decoration-none" href="#"><i class="fa fa-users" aria-hidden="true"></i>
+              <span class="hidden">SERVICES</span>
             </a>
-            <a class="text-white-50 text-decoration-none" href="#"><i class="fa fa-search" aria-hidden="true"></i>
-              <span class="hidden">SEARCH</span>
+            <a class="text-white-50 text-decoration-none" href="#"><i class="fa fa-bars" aria-hidden="true"></i>
+              <span class="hidden">MORE</span>
             </a>
           </div>
         </div>
+    </nav>
+  </header>
+  <section class="search-area">
+    <div class="row search">
+      <div class="col-12 text-center">
+        <h2 class="search-heading font-weight-bold text-white d-inline-block search-items">
+          GET A SERVICE... BROWSE THROUGH THE NUMEROUS PROVIDERS.</h2>
+        <div class="main-search d-flex bg-gray">
+          <h3>SEARCH BY KEYWORD</h3>
+          <div class="text-btn d-flex">
+            <input class="text-input" type="search" />
+            <a href="./result.html" class="btn-search btn btn-primary btn-sm btn-block text-decoration-none text-white font-weight-bold font-16 text-center">SEARCH</a>
+          </div>
+        </div>
+        <a class="btn-works hover-black bg-gray font-18 text-black text-decoration-none"
+           href="#">How It Works</a>      
       </div>
     </div>
-  </header>
-  <!-- <section class="showcase-area">
-    <div class="row no-gutters">
-      <div class="col-12 text-center">
-        <h2 class="main-heading font-weight-bold text-white d-inline-block">
-          PATA SHULE... YOUR GATEWAY TO LIBRARIES.</h2>
-          <div class="search-area d-flex bg-gray">
-            <h3>SEARCH BY KEYWORD</h3>
-            <div class="text-btn">
-              <input class="font-18" type="search" />
-              <a href="./result.html" class="btn-search text-decoration-none text-white font-weight-bold font-16 d-inline-block text-center">
-                SEARCH</a>
-            </div>
-          </div>
-          <a class="d-inline-block btn-works hover-black bg-gray font-18 text-black text-decoration-none"
-            href="#">How It Works</a>
-        </div>
-      </div>
-    </section> -->
+  </section>
   <!-- Main section start -->
   <main class="container col-8">
     <div class="search-item">
-      <h2 class="text-color text-center font-12">Pata shule works in four simple steps</h2>
+      <h2 class="text-color text-center font-12">Service Company works in four simple steps</h2>
     </div>
     <div class="row d-flex how-items">
       <div class="col-12 col-lg-6">
@@ -118,59 +115,25 @@
   </main>
   <!-- footer -->
   <footer>
-      <div class="footer position-relative">
-        <div class="container-fluid">
-          <div class="footer-links d-flex justify-content-evenly">
-            <div class="left-links d-flex justify-content-between align-items-center">
-             <a class="link text-white d-inline-block text-decoration-none" href="#">Advertise</a>
-              <a class="link text-white d-inline-block text-decoration-none" href="#">Advertise</a>
-              <a class="link text-white d-inline-block text-decoration-none" href="#">Advertise</a>
-              <a class="link text-white d-inline-block text-decoration-none" href="#">Advertise</a>
-            </div>
-            <div class="right-links d-flex justify-content-evenly align-items-center">
-              <a class="link text-white d-inline-block text-decoration-none" href="#">Advertise</a>
-              <a class="link text-white d-inline-block text-decoration-none" href="#">Advertise</a>
-              <a class="link text-white d-inline-block text-decoration-none" href="#">Advertise</a>
-              <a class="link text-white d-inline-block text-decoration-none" href="#">Advertise</a>
-            </div>
+      <section class="container-fluid d-flex position-relative align-items-center text-decoration-none bg-dark">
+        <nav class="container col-9 footer-links d-flex align-items-center">
+          <div class="footer-logo d-inline-block">
+            <a href="#"><i class="fa fa-snowflake-o fa-3x border border-white rounded-circle text-white" aria-hidden="true"></i></a>
           </div>
-          <div class="center-logo d-none d-lg-inline-block position-absolute rounded-circle">
-            <i class="fa fa-map-marker text-white"></i>
+          <div class="right-links">
+            <a class="text-white text-decoration-none" href="#">HOME</a>
+            <a class="text-white text-decoration-none" href="#">SEARCH</a>
+            <a class="text-white text-decoration-none" href="#">ABOUT</a>
+            <a class="text-white text-decoration-none" href="#">ADVERTISE</a>
           </div>
-
-          <div class="row sub-contact-about">
-            <div class="col-12 col-lg-4">
-              <h2 class="text-center text-white font-18 font-weight-bold">
-                Subscribe
-              </h2>
-              <div class="sub-input-btn d-flex justify-content-center">
-                <input
-                  class="text-white"
-                  type="email"
-                  placeholder="your-email"/>
-                <a class="text-decoration-none btn-footer-sub d-inline-block text-white" href="#">Subscribe</a>
-              </div>
-            </div>
-
-            <div class="col-12 col-lg-4 d-flex flex-column footer-info-block">
-              <h2 class="text-center text-white font-18 font-weight-bold">
-                Contact
-              </h2>
-              <span class="text-gray text-center"></span>For more information write us</span>
-              <span class="text-center text-primary-color">mail-to@gmail.com</span
-              >
-            </div>
-
-            <div class="col-12 col-lg-4 d-flex flex-column footer-info-block">
-              <h2 class="text-center text-white font-18 font-weight-bold">About</h2>
-              <span class="text-white text-center">
-                This is a schools directory website to help ease your search for your favourite school.
-                <a class="text-primary-color learn-more" href="#">Learn More</a></span>
-            </div>
+          <div class="left-links">
+            <a class="text-white text-decoration-none" href="#">FACEBOOK</a>
+            <a class="text-white text-decoration-none" href="#">TWITTER</a>
+            <a class="text-white text-decoration-none" href="#">BLOG</a>
+            <a class="text-white text-decoration-none" href="#">LINKEDIN</a>
           </div>
-        </div>
-      </div>
-
+        </nav>
+      </section>
       <div class="copyright-footer">
         <div class="container">
           <div class="row copyright">
@@ -194,17 +157,13 @@
                 </li>
                 <li class="d-inline-block p-2">
                   <a href="#" class="text-lightgray">
-                    <i class="fab fa-linkedin-in"></i>
+                    <i class="fa fa-linkedin"></i>
                   </a>
                 </li>
               </ul>
             </div>
-            <div
-              class="copyright-text col-6 d-flex align-items-center justify-content-end"
-            >
-              <span class="text-lightgray">
-                © 2020 Designed by PatashuleKE
-              </span>
+            <div class="copyright-text col-6 d-flex align-items-center justify-content-end">
+              <span class="text-lightgray">© 2021 A simple designed service directory.</span>
             </div>
           </div>
         </div>

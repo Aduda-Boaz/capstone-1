@@ -27,10 +27,59 @@
   background-color: #aaa3a3;
 }
 
-.showcase-area {
+.hover-black:hover {
+  color: black;
+}
+
+.top-nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.nav-links a {
+  margin: 20px;
+}
+
+.search {
+  width: contain;
+}
+
+.search-area {
   background:
     linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
     transparent url(./assets/jumbo-img.jpg) center center/cover no-repeat;
+}
+
+.search-items {
+  margin-top: 100px;
+}
+
+.main-search {
+  padding: 2em 0 2.5em 1.8em;
+  text-align: left;
+  width: 70%;
+  margin: auto;
+  border-radius: 5px;
+  flex-direction: column;
+}
+
+.main-search h3 {
+  font-size: 14px;
+}
+
+.text-input[type="search"] {
+  width: 90%;
+  height: 2em;
+  border: none;
+  padding-left: 0.5em;
+}
+
+.btn-search {
+  padding: 0.5em 1em;
+  width: 30%;
+  margin-left: 1px;
+  background: #d35649;
 }
 
 .img-in {
@@ -70,19 +119,19 @@
   color: #ffffff;
 }
 
-.nav-logo {
-  flex: 1;
-}
-
 .nav-logo img {
-  width: 130px;
+  width: 300px;
   height: auto;
 }
 
-.top-section {
+.search-area {
   background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
-  transparent url(./assets/jumbo-img.jpg) center center/cover no-repeat;
+  transparent url(./assets/service-provider.jpg) center center/cover no-repeat;
   height: 400px;
+}
+
+.search-heading {
+  font-size: 18px;
 }
 
 .how-items {
@@ -101,8 +150,25 @@
   margin-top: 20px;
 }
 
-.footer {
-  background-color: black;
+.footer-links {
+  border-top: solid white 1px;
+  border-bottom: solid wheat 1px;
+  line-height: 0.8em;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  justify-content: space-between;
+}
+
+.right-links,
+.left-links {
+  font-size: 14px;
+  justify-content: space-between;
+}
+
+.footer-logo {
+  top: 0;
+  left: 50%;
+  padding: 1.8em 2em 1.7em 2em;
 }
 
 @media only screen and (max-width: 768px) {
@@ -110,10 +176,27 @@
     flex-direction: column;
   }
 
+  .top-nav {
+    flex-direction: column;
+  }
+
+  .hidden {
+    display: none;
+  }
+
+  .text-btn {
+    flex-direction: column;
+  }
+
   .how-items {
     flex-direction: column;
   }
+
   .items {
     flex-direction: column-reverse;
+  }
+
+  .footer-links {
+    flex-direction: column;
   }
 }
