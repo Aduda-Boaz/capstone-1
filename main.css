@@ -1,6 +1,7 @@
 html,
 body {
   box-sizing: border-box;
+  overflow-x: hidden;
 }
 
 .redbar {
@@ -217,6 +218,10 @@ body {
   }
 
   .info-links {
+    flex-direction: row;
+  }
+
+  .how-items {
     flex-direction: row;
   }
 }
