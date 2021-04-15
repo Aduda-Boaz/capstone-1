@@ -1,3 +1,7 @@
+html,
+body {
+  box-sizing: border-box;
+}
 
 .redbar {
   background: #d35649;
@@ -43,12 +47,6 @@
 
 .search {
   width: contain;
-}
-
-.search-area {
-  background:
-    linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
-    transparent url(./assets/jumbo-img.jpg) center center/cover no-repeat;
 }
 
 .search-items {
@@ -126,7 +124,7 @@
 
 .search-area {
   background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
-  transparent url(./assets/service-provider.jpg) center center/cover no-repeat;
+  transparent url(assets/service-provider.jpg) center center/cover no-repeat;
   height: 400px;
 }
 
@@ -153,22 +151,30 @@
 .footer-links {
   border-top: solid white 1px;
   border-bottom: solid wheat 1px;
-  line-height: 0.8em;
-  margin-top: 10px;
+  margin-top: 30px;
   margin-bottom: 10px;
   justify-content: space-between;
 }
 
-.right-links,
-.left-links {
-  font-size: 14px;
-  justify-content: space-between;
+.bg-links {
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 
 .footer-logo {
   top: 0;
   left: 50%;
   padding: 1.8em 2em 1.7em 2em;
+}
+
+.footer-btn {
+  padding: 0.2em 0.5em;
+  border-radius: 2px;
+  background-color: rgb(99, 93, 93);
+}
+
+.info-links {
+  padding: 5px;
 }
 
 @media only screen and (max-width: 768px) {
@@ -192,11 +198,25 @@
     flex-direction: column;
   }
 
-  .items {
-    flex-direction: column-reverse;
+  .circle-2 {
+    display: none;
   }
 
   .footer-links {
     flex-direction: column;
+  }
+
+  .info-links {
+    flex-direction: column;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .item-1 {
+    display: none;
+  }
+
+  .info-links {
+    flex-direction: row;
   }
 }
