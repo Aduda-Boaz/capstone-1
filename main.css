@@ -7,7 +7,6 @@ body {
 .redbar {
   background: #d35649;
   width: 100%;
-  padding: 20x;
 }
 
 .redbar-2 {
@@ -46,10 +45,6 @@ body {
   margin: 20px;
 }
 
-.search {
-  width: contain;
-}
-
 .search-items {
   margin-top: 100px;
 }
@@ -61,9 +56,6 @@ body {
   margin: auto;
   border-radius: 5px;
   flex-direction: column;
-}
-
-.main-search h3 {
   font-size: 14px;
 }
 
@@ -115,7 +107,7 @@ body {
 
 .icon-group-item {
   text-decoration: none;
-  color: #ffffff;
+  color: #fff;
 }
 
 .nav-logo img {
