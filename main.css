@@ -117,8 +117,7 @@ body {
 
 .search-area {
   background: 
-    linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
-    transparent url(assets/service-provider.jpg) center center/cover no-repeat;
+    linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), transparent url(assets/service-provider.jpg) center center/cover no-repeat;
   height: 400px;
 }
 
