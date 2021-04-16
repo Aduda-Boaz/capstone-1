@@ -121,7 +121,7 @@ h1 {
 }
 
 .results-list {
-  background: 
+  background:
     linear-gradient(rgba(150, 3, 3, 0.4), rgba(8, 0, 0, 0.4)),
     transparent url(assets/service-provider.jpg) center center/cover no-repeat;
   height: 300px;
@@ -211,9 +211,5 @@ h1 {
 @media only screen and (max-width: 1024px) {
   .hidden {
     display: none;
-  }
-
-  .results-section {
-    display: 2;
   }
 }
