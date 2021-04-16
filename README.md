@@ -6,7 +6,6 @@
 
 ![screenshot](front-paage.png)
 ![screenshot](front-footer.png)
-![screenshot](./app_screenshot.png)
 
 This project is a HTML/CSS capstone-1 project. The project is meant to test the mastery of the module 1, by building a similar page to PATASHULE Directory.
 
