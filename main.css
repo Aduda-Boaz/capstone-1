@@ -4,6 +4,10 @@ body {
   overflow-x: hidden;
 }
 
+h1 {
+  font-size: 24px;
+}
+
 .redbar {
   background: #d35649;
   width: 100%;
@@ -28,7 +32,7 @@ body {
 }
 
 .bg-gray {
-  background-color: #aaa3a3;
+  background-color: rgba(99, 93, 93, 0.5);
 }
 
 .hover-black:hover {
@@ -140,6 +144,11 @@ body {
 
 .btn-how {
   margin-top: 20px;
+}
+
+.bg-img {
+  width: 300px;
+  height: auto;
 }
 
 .footer-links {
