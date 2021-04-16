@@ -181,23 +181,11 @@ h1 {
 }
 
 @media only screen and (max-width: 768px) {
-  .redbar {
-    flex-direction: column;
-  }
-
-  .top-nav {
-    flex-direction: column;
-  }
-
-  .hidden {
-    display: none;
-  }
-
-  .text-btn {
-    flex-direction: column;
-  }
-
-  .how-items {
+  .redbar,
+  .top-nav,
+  .text-btn,
+  .how-items,
+  .data-column {
     flex-direction: column;
   }
 
