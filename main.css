@@ -121,8 +121,9 @@ h1 {
 }
 
 .results-list {
-  background: linear-gradient(rgba(150, 3, 3, 0.4), rgba(8, 0, 0, 0.4)),
-  transparent url(assets/service-provider.jpg) center center/cover no-repeat;
+  background: 
+    linear-gradient(rgba(150, 3, 3, 0.4), rgba(8, 0, 0, 0.4)),
+    transparent url(assets/service-provider.jpg) center center/cover no-repeat;
   height: 300px;
   width: 300px;
 }
@@ -201,16 +202,9 @@ h1 {
     display: none;
   }
 
-  .info-links {
-    flex-direction: row;
-  }
-
+  .info-links,
   .how-items {
     flex-direction: row;
-  }
-
-  .results-section {
-    display: 2;
   }
 }
 
