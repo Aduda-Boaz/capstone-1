@@ -135,11 +135,19 @@ h1 {
 
 .results-section {
   gap: 20px;
+  display: flex;
 }
 
 .result-text {
   font-size: 18px;
   margin-top: 90px;
+}
+
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
 .font-12 {
@@ -148,6 +156,7 @@ h1 {
 
 .btn-how {
   margin-top: 20px;
+  color: #fff;
 }
 
 .bg-img {
