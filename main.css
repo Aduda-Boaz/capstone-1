@@ -127,27 +127,20 @@ h1 {
 
 .results-list {
   background:
-    linear-gradient(rgba(150, 3, 3, 0.4), rgba(8, 0, 0, 0.4)),
+    linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
     transparent url(assets/service-provider.jpg) center center/cover no-repeat;
   height: 300px;
   width: 300px;
+  padding: 5px;
 }
 
 .results-section {
   gap: 20px;
-  display: flex;
 }
 
 .result-text {
   font-size: 18px;
   margin-top: 90px;
-}
-
-.centered {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
 }
 
 .font-12 {
