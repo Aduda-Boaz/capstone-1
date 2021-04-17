@@ -1,12 +1,15 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Capstone Project: Building a School Directory 
+# Capstone Project: Building a School Directory
+
 This project is for learning purposes at Microverse. It is a School Directory (PATA SHULE) replica to test on the mastery of the HTML/CSS Module.
 
 >
 
-![screenshot](front-paage.png)
-![screenshot](front-footer.png)
+![screenshot](home-page.png)
+![screenshot](home-2.png)
+![screenshot](about-1.png)
+![screenshot](search-results.png)
 
 This project is a HTML/CSS capstone-1 project. The project is meant to test the mastery of the module 1, by building a similar page to PATASHULE Directory.
 
