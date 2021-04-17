@@ -112,6 +112,11 @@ h1 {
   font-size: 18px;
 }
 
+.img-service img {
+  width: 200px;
+  height: 200px;
+}
+
 .how-items {
   margin: 20px;
 }
@@ -189,6 +194,10 @@ h1 {
   .footer-links,
   .info-links {
     flex-direction: column;
+  }
+
+  .more-about {
+    flex-direction: column-reverse;
   }
 
   .circle-2,
