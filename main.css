@@ -219,6 +219,12 @@ h1 {
   }
 }
 
+@media only screen and (max-width: 991px) {
+  .text-btn {
+    flex-direction: column;
+  }
+}
+
 @media only screen and (max-width: 1024px) {
   .hidden {
     display: none;
