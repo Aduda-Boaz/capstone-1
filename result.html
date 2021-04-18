@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
+  <script src="https://use.fontawesome.com/64013fe654.js"></script>
+  <link rel="stylesheet" href="main.css">
+  <title>Service Company Search Results</title>
+</head>
+<body>
+  <header class="container-fluid redbar">
+    <nav class="row col-12">
+        <div class="top-nav">
+          <div class="left-nav">
+            <a href="index.html" class="nav-logo"><img src="assets/service-logo.png" alt=""></a>
+          </div>
+          <div class="nav-links">
+            <a class="text-white text-decoration-none" href="index.html"><i class="fa fa-search" aria-hidden="true"></i>
+              <span class="hidden">SEARCH</span>
+            </a>
+            <a class="text-white text-decoration-none" href="about.html"><i class="fa fa-user" aria-hidden="true"></i>
+              <span class="hidden">ABOUT</span>
+            </a>
+            <a class="text-white list-items-none text-decoration-none" href="#"><i class="fa fa-users" aria-hidden="true"></i>
+              <span class="hidden">SERVICES</span>
+            </a>
+            <a class="text-white text-decoration-none" href="#"><i class="fa fa-bars" aria-hidden="true"></i>
+              <span class="hidden">MORE</span>
+            </a>
+          </div>
+        </div>
+    </nav>
+  </header>
+  <main>
+   <div class="results-opt p-5 bg-gray">
+     <div class="container-fluid">
+       <div class="container">
+        <h1 class="font-weight-bold text-center">
+          Filter by name, place, nature of work, profession level
+        </h1>
+        <form action="text" class="form justify-content-center d-flex">
+          <div class="d-flex flex-wrap">
+            <div class="single-input text-left d-flex flex-column">
+              <label for="search-name">Search Name:</label>
+              <input id="search-name" type="text" class="search-name"/>
+            </div>
+          </div>
+          <div class="single-input text-left d-flex flex-column">
+            <label for="area">Area:</label>
+              <select name="area" id="area" class="area bg-white p-1">
+                <option value="city">select</option>
+                <option value="MSA">Mombasa</option>
+                <option value="NBI">Nairobi</option>
+                <option value="KSM">Kisumu</option>
+                <option value="NKR">Nakuru</option>
+              </select>
+            </div>
+            <div class="single-input text-left d-flex flex-column">
+            <label for="service">Service:</label>
+              <select name="service" id="service" class="service bg-white p-1">
+                <option value="skill">select</option>
+                <option value="PL">Plumbing</option>
+                <option value="GD">Gardening</option>
+                <option value="CPT">Carpentry</option>
+                <option value="CK">Cooking</option>
+              </select>
+            </div>
+            <div class="single-input text-left d-flex flex-column">
+            <label for="service">Service:</label>
+              <select name="service" id="work" class="service bg-white p-1">
+                <option value="skill-level">select</option>
+                <option value="PL">Plumbing</option>
+                <option value="GD">Gardening</option>
+                <option value="CPT">Carpentry</option>
+                <option value="CK">Cooking</option>
+              </select>
+            </div>
+            <div class="single-input text-left d-flex flex-column">
+            <label for="service">Level:</label>
+              <select name="service" id="skill" class="service bg-white p-1">
+                <option value="rate">select</option>
+                <option value="PL">High</option>
+                <option value="GD">Medium</option>
+                <option value="CPT">Low</option>
+              </select>
+            </div>
+            <div class="single-input text-left d-flex flex-column">
+            <label for="service">profession:</label>
+              <select name="service" id="profession" class="service bg-white p-1">
+                <option value="profession">select</option>
+                <option value="PL">Diploma</option>
+                <option value="GD">Bachelors</option>
+                <option value="CPT">Advanced</option>
+              </select>
+            </div>
+            <div class="form-buttons d-flex justify-content-center align-items-end">
+              <a href="#" class="btn-danger text-white text-decoration-none font-14 p-1">Search</a>
+              <a href="#" class="btn-primary text-white text-decoration-none font-14 p-1">
+                <i class="fa fa-edit">Clear</i></a>
+            </div>
+        </form>
+       </div>
+     </div>
+   </div>
+   <div class="container">
+    <div class="row">
+      <div class="col-12 mt-5 text-center">
+        <h1 class="font-26 font-weight-bold mt-3 text-gray">
+          Search Results Found 7 Categories.
+        </h1>
+      </div>
+    </div> 
+  </div>   
+   <div class="container col-12 p-5 d-flex">     
+      <div class="row d-flex results-section">
+        <div class="results-list">
+          <h2 class="result-text"><a href="about.html" class="text-decoration-none text-white align-items-center">Meet The Plumber, Mombasa</a></h2>
+        </div>
+        <div class="results-list">
+          <h2 class="result-text"><a href="about.html" class="text-decoration-none text-white align-items-center">Meet The Plumber, Mombasa</a></h2>
+        </div>
+        <div class="results-list">
+          <h2 class="result-text"><a href="about.html" class="text-decoration-none text-white align-items-center">Meet The Plumber, Mombasa</a></h2>
+        </div>
+        <div class="results-list">
+          <h2 class="result-text"><a href="about.html" class="text-decoration-none text-white align-items-center">Meet The Plumber, Mombasa</a></h2>
+        </div>
+        <div class="results-list">
+          <h2 class="result-text"><a href="about.html" class="text-decoration-none text-white align-items-center">Meet The Plumber, Mombasa</a></h2>
+        </div>
+        <div class="results-list">
+          <h2 class="result-text"><a href="about.html" class="text-decoration-none text-white align-items-center">Meet The Plumber, Mombasa</a></h2>
+        </div>
+        <div class="results-list">
+          <h2 class="result-text"><a href="about.html" class="text-decoration-none text-white align-items-center">Meet The Plumber, Mombasa</a></h2>
+        </div>
+      </div>
+    </div>
+  </main>
+    <!-- footer -->
+  <footer class="container-fluid bg-dark">
+      <div class="container-fluid position-relative align-items-center text-decoration-none bg-links">
+        <nav class="container footer-links d-flex align-items-center">
+          <a class="text-white text-decoration-none" href="index">HOME</a>
+          <a class="text-white text-decoration-none" href="result.html">SEARCH</a>
+          <a class="text-white text-decoration-none" href="about.html">ABOUT</a>
+          <a class="text-white text-decoration-none" href="#">ADVERTISE</a>
+          <span><a href="#"><i class="circle-2 fa fa-snowflake-o fa-5x border border-white rounded-circle text-white" aria-hidden="true"></i></a></span>
+          <a class="text-white text-decoration-none" href="#">FACEBOOK</a>
+          <a class="text-white text-decoration-none" href="#">TWITTER</a>
+          <a class="text-white text-decoration-none" href="#">BLOG</a>
+          <a class="text-white text-decoration-none" href="#">LINKEDIN</a>  
+        </nav>
+        <div class="d-flex col-12 justify-content-between align-items-center info-links">
+          <div class="text-center p-2">
+            <h2 class="text-center text-white font-weight-bold">
+              Subscribe
+            </h2>
+            <div class="d-flex">
+              <input type="email" class="small-imput justify-content-center text-white" placeholder="yours@example.com">
+              <a href="#" class="text-decoration-none footer-btn text-white">
+                Subscribe
+              </a>
+            </div>
+          </div>
+          <div class="text-center p-2">
+            <h2 class="text-white">
+              Get More Info
+           </h2>
+          <span class="text-white">
+            Anything you need to know? Please do not hesitate to drop us a message.
+          </span>
+          <span class="text-danger">
+            example@example-mail.com
+          </span>
+        </div>
+        <div class="text-center p-2">
+          <h2 class="text-white">
+             About
+          </h2>
+          <span class="text-white">
+            This webpage is to help users get their services by just a click.
+          </span>
+          <span class="text-danger">
+            get more info
+          </span>
+        </div>
+      </div>
+    </div>
+    <div class="copyright-footer bg-gray">
+      <div class="row">
+        <div class="row copyright">
+          <div class="copyright-icons col-6">
+              <ul class="m-0 p-0">
+                <li class="d-inline-block p-2">
+                  <a href="#" class="social-link">
+                    <i class="fa fa-facebook text-white-50"></i>
+                  </a>
+                </li>
+                <li class="d-inline-block p-2">
+                  <a href="#" class="social-link">
+                    <i class="fa fa-twitter text-white-50"></i>
+                  </a>
+                </li>
+                <li class="d-inline-block p-2">
+                  <a href="#" class="social-link">
+                    <i class="fa fa-linkedin text-white-50"></i>
+                  </a>
+                </li>
+              </ul>
+            </div>
+          <div class="copyright-text col-6 d-flex align-items-center justify-content-end">
+            <span class="text-white">© 2021 A simple designed service directory.</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>
